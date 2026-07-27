@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .t1{font-size:14px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .t2{font-size:13px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .ex{font-size:11px;fill:#6b7280;text-anchor:middle;}
+      .lbl{font-size:12px;fill:#374151;}
+    </style>
+  </defs>
+  <text x="360" y="26" class="head">인공지능 ⊃ 기계학습 ⊃ 딥러닝 (포함 관계)</text>
+
+  <!-- 동심원 -->
+  <circle cx="250" cy="140" r="98" fill="#eef2ff" stroke="#3b6ef5" stroke-width="1.6"/>
+  <circle cx="250" cy="155" r="66" fill="#e6f7f5" stroke="#0ea5a4" stroke-width="1.6"/>
+  <circle cx="250" cy="172" r="34" fill="#fff4e6" stroke="#f59e0b" stroke-width="1.6"/>
+  <text x="250" y="64" class="t1" fill="#3b6ef5">인공지능</text>
+  <text x="250" y="118" class="t2" fill="#0ea5a4">기계학습</text>
+  <text x="250" y="176" class="ex" fill="#b45309" font-weight="700">딥러닝</text>
+
+  <!-- 설명 -->
+  <text x="430" y="72" class="lbl" font-weight="700" fill="#3b6ef5">인공지능</text>
+  <text x="430" y="92" class="lbl">인간의 지능을 모방한 기술 전체</text>
+
+  <text x="430" y="128" class="lbl" font-weight="700" fill="#0ea5a4">기계학습</text>
+  <text x="430" y="148" class="lbl">데이터로 스스로 규칙을 배우는 방법</text>
+
+  <text x="430" y="184" class="lbl" font-weight="700" fill="#b45309">딥러닝</text>
+  <text x="430" y="204" class="lbl">인공신경망(뇌 모방)으로 학습하는 기계학습</text>
+</svg>

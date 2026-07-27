@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .nm{font-size:14px;font-weight:800;text-anchor:middle;}
+      .ex{font-size:11px;fill:#6b7280;text-anchor:middle;}
+    </style>
+  </defs>
+  <text x="360" y="28" class="head">디지털 사회의 4가지 특성 (금성 '4초')</text>
+
+  <g>
+    <circle cx="130" cy="110" r="52" fill="#eef2ff" stroke="#3b6ef5" stroke-width="1.8"/>
+    <text x="130" y="106" class="nm" fill="#3b6ef5">초연결화</text>
+    <text x="130" y="176" class="ex">사람·사물이</text>
+    <text x="130" y="192" class="ex">네트워크로 연결(IoT·SNS)</text>
+  </g>
+  <g>
+    <circle cx="295" cy="110" r="52" fill="#e6f7f5" stroke="#0ea5a4" stroke-width="1.8"/>
+    <text x="295" y="106" class="nm" fill="#0ea5a4">초자동화</text>
+    <text x="295" y="176" class="ex">사람 일을 기계가</text>
+    <text x="295" y="192" class="ex">자동 처리</text>
+  </g>
+  <g>
+    <circle cx="460" cy="110" r="52" fill="#fff4e6" stroke="#f59e0b" stroke-width="1.8"/>
+    <text x="460" y="106" class="nm" fill="#b45309">초지능화</text>
+    <text x="460" y="176" class="ex">스스로 학습·판단</text>
+    <text x="460" y="192" class="ex">(인공지능)</text>
+  </g>
+  <g>
+    <circle cx="625" cy="110" r="52" fill="#f3ecff" stroke="#8b5cf6" stroke-width="1.8"/>
+    <text x="625" y="106" class="nm" fill="#7c3aed">초융합화</text>
+    <text x="625" y="176" class="ex">온·오프라인, 기술이</text>
+    <text x="625" y="192" class="ex">하나로 결합</text>
+  </g>
+</svg>

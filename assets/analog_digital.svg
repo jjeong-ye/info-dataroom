@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .sub{font-size:13px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .ex{font-size:11px;fill:#6b7280;text-anchor:middle;}
+      .ax{stroke:#9aa3b2;stroke-width:1.2;}
+      .grid{stroke:#eef0f5;stroke-width:1;}
+      .ana{stroke:#0ea5a4;stroke-width:2.4;fill:none;}
+      .dig{stroke:#3b6ef5;stroke-width:2.4;fill:none;}
+    </style>
+  </defs>
+  <text x="360" y="26" class="head">아날로그 vs 디지털</text>
+
+  <!-- 아날로그 -->
+  <text x="180" y="54" class="sub">아날로그 — 연속</text>
+  <line class="grid" x1="60" y1="90" x2="300" y2="90"/>
+  <line class="grid" x1="60" y1="130" x2="300" y2="130"/>
+  <line class="grid" x1="60" y1="170" x2="300" y2="170"/>
+  <line class="ax" x1="60" y1="70" x2="60" y2="200"/>
+  <line class="ax" x1="60" y1="200" x2="300" y2="200"/>
+  <path class="ana" d="M60,180 C110,80 150,80 180,130 C210,180 250,90 300,110"/>
+  <text x="180" y="224" class="ex">끊김 없이 매끄럽게 변함 (수은 온도계·LP)</text>
+
+  <!-- 디지털 -->
+  <text x="540" y="54" class="sub">디지털 — 불연속(계단)</text>
+  <line class="grid" x1="420" y1="90" x2="660" y2="90"/>
+  <line class="grid" x1="420" y1="130" x2="660" y2="130"/>
+  <line class="grid" x1="420" y1="170" x2="660" y2="170"/>
+  <line class="ax" x1="420" y1="70" x2="420" y2="200"/>
+  <line class="ax" x1="420" y1="200" x2="660" y2="200"/>
+  <path class="dig" d="M420,180 H460 V150 H500 V110 H540 V130 H580 V95 H620 V115 H660"/>
+  <text x="540" y="224" class="ex">일정 간격으로 끊어 0·1 값으로 (숫자 온도계·MP3)</text>
+
+  <text x="360" y="248" class="ex">컴퓨터는 디지털(0·1)만 처리 → 아날로그를 디지털로 변환해 사용</text>
+</svg>

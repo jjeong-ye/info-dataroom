@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .place{font-size:13px;fill:#6b7280;text-anchor:middle;font-weight:700;}
+      .bit{font-size:24px;fill:#1f2637;text-anchor:middle;font-weight:800;}
+      .val{font-size:13px;fill:#3b6ef5;text-anchor:middle;font-weight:700;}
+      .ex{font-size:12px;fill:#374151;text-anchor:middle;}
+      .cell{fill:#eef2ff;stroke:#3b6ef5;stroke-width:1.4;}
+      .off{fill:#f3f4f6;stroke:#c7d0e0;stroke-width:1.4;}
+    </style>
+  </defs>
+  <text x="360" y="28" class="head">2진수로 수 표현하기 — 자릿값의 합</text>
+
+  <text x="360" y="56" class="ex">이진수 1101 을 십진수로 바꾸면?</text>
+
+  <!-- 4 cells -->
+  <g>
+    <text x="230" y="82" class="place">8</text>
+    <rect class="cell" x="200" y="90" width="60" height="60" rx="8"/>
+    <text x="230" y="128" class="bit">1</text>
+    <text x="230" y="170" class="val">8</text>
+  </g>
+  <g>
+    <text x="320" y="82" class="place">4</text>
+    <rect class="cell" x="290" y="90" width="60" height="60" rx="8"/>
+    <text x="320" y="128" class="bit">1</text>
+    <text x="320" y="170" class="val">4</text>
+  </g>
+  <g>
+    <text x="410" y="82" class="place">2</text>
+    <rect class="off" x="380" y="90" width="60" height="60" rx="8"/>
+    <text x="410" y="128" class="bit" fill="#9aa3b2">0</text>
+    <text x="410" y="170" class="val" fill="#9aa3b2">0</text>
+  </g>
+  <g>
+    <text x="500" y="82" class="place">1</text>
+    <rect class="cell" x="470" y="90" width="60" height="60" rx="8"/>
+    <text x="500" y="128" class="bit">1</text>
+    <text x="500" y="170" class="val">1</text>
+  </g>
+
+  <text x="560" y="128" class="bit" fill="#0ea5a4">=</text>
+  <text x="620" y="124" class="bit" fill="#0ea5a4">13</text>
+  <text x="360" y="204" class="ex">1인 자리의 자릿값만 더하기 → 8 + 4 + 1 = 13  (n비트 → 2ⁿ가지 표현)</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420">
+  <!-- 짱구 잠옷: 큰 타일 + 적은 도형 + 불규칙 배치 + 연하게 (도형 살짝 키움) -->
+  <g opacity="0.34">
+    <rect x="34" y="54" width="46" height="46" rx="6" fill="#f7c948" transform="rotate(13 57 77)"/>
+    <circle cx="300" cy="48" r="26" fill="#79c14a"/>
+    <polygon points="170,110 200,162 140,162" fill="#ff5a4d"/>
+    <circle cx="68" cy="250" r="22" fill="#79c14a"/>
+    <rect x="326" y="204" width="42" height="42" rx="6" fill="#f7c948" transform="rotate(-18 347 225)"/>
+    <polygon points="250,292 282,346 218,346" fill="#ff5a4d"/>
+    <circle cx="382" cy="372" r="25" fill="#79c14a"/>
+    <rect x="112" y="342" width="44" height="44" rx="6" fill="#f7c948" transform="rotate(27 134 364)"/>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>중학교 정보 통합 자료실 — 수업 준비</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-title">
+        <h1>중학교 정보 통합 자료실</h1>
+        <p class="subtitle">8종 교과서를 한곳에서 · 교사 수업 준비용</p>
+      </div>
+      <div class="search-wrap">
+        <input id="searchInput" type="text" autocomplete="off" spellcheck="false"
+               placeholder="🔍 개념·용어 검색 (예: 변수, 저작권, 표본화)" />
+        <div id="searchResults" class="search-results" hidden></div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="unit-nav" id="unitNav"><!-- 단원 버튼 자동 생성 --></nav>
+
+  <div class="view-tabs" id="viewTabs">
+    <div class="view-tabs-inner">
+      <button class="view-tab active" data-view="theory">📖 이론</button>
+      <button class="view-tab" data-view="practice">🧩 실습</button>
+    </div>
+  </div>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-title">개념 목록</div>
+      <ul class="concept-list" id="conceptList"><!-- 개념 목록 자동 생성 --></ul>
+    </aside>
+
+    <section class="content" id="content"><!-- 개념 카드 자동 생성 --></section>
+  </main>
+
+  <footer class="footer">
+    <div>수업 준비용 개인 자료실 · 통합정의·설명·도식은 직접 제작/재서술한 자료입니다 · 교과서별 정의 비교는 저작권상 공개본에서 제외</div>
+    <div class="backup">
+      💾 내 메모·준비체크 백업:
+      <button id="btnExport" class="link-btn">파일로 내보내기</button>
+      <button id="btnImport" class="link-btn">파일에서 불러오기</button>
+      <input id="importFile" type="file" accept="application/json,.json" hidden />
+      <span class="backup-hint">— 집·학교 PC 간 이동이나 백업에 쓰세요</span>
+    </div>
+  </footer>
+
+  <button id="aiFab" class="ai-fab" title="현재 개념으로 AI에게 질문">🤖 AI 도우미</button>
+  <div id="aiDock" class="ai-dock" hidden></div>
+
+  <script src="data.js"></script>
+  <script src="ai.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

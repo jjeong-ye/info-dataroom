@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .nm{font-size:13px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .ex{font-size:10.5px;fill:#6b7280;text-anchor:middle;}
+      .foot{font-size:11.5px;fill:#374151;text-anchor:middle;}
+    </style>
+  </defs>
+  <text x="360" y="26" class="head">개인정보의 유형</text>
+
+  <!-- 6 cards -->
+  <g>
+    <rect x="24" y="46" width="150" height="72" rx="10" fill="#eef2ff" stroke="#3b6ef5" stroke-width="1.4"/>
+    <text x="99" y="72" class="nm">인적 정보</text>
+    <text x="99" y="92" class="ex">이름·주민번호·주소</text>
+    <text x="99" y="108" class="ex">전화번호·가족관계</text>
+  </g>
+  <g>
+    <rect x="190" y="46" width="150" height="72" rx="10" fill="#e6f7f5" stroke="#0ea5a4" stroke-width="1.4"/>
+    <text x="265" y="72" class="nm">신체적 정보</text>
+    <text x="265" y="92" class="ex">얼굴·지문·홍채·키</text>
+    <text x="265" y="108" class="ex">건강상태·진료기록</text>
+  </g>
+  <g>
+    <rect x="356" y="46" width="150" height="72" rx="10" fill="#fff4e6" stroke="#f59e0b" stroke-width="1.4"/>
+    <text x="431" y="72" class="nm">정신적 정보</text>
+    <text x="431" y="92" class="ex">가치관·종교</text>
+    <text x="431" y="108" class="ex">구매내역·검색기록</text>
+  </g>
+  <g>
+    <rect x="24" y="128" width="150" height="72" rx="10" fill="#f3ecff" stroke="#8b5cf6" stroke-width="1.4"/>
+    <text x="99" y="154" class="nm">사회적 정보</text>
+    <text x="99" y="174" class="ex">학력·성적·출석</text>
+    <text x="99" y="190" class="ex">동아리·직장</text>
+  </g>
+  <g>
+    <rect x="190" y="128" width="150" height="72" rx="10" fill="#eafbea" stroke="#4bb96a" stroke-width="1.4"/>
+    <text x="265" y="154" class="nm">재산적 정보</text>
+    <text x="265" y="174" class="ex">소득·계좌번호</text>
+    <text x="265" y="190" class="ex">신용카드·부동산</text>
+  </g>
+  <g>
+    <rect x="356" y="128" width="150" height="72" rx="10" fill="#fdeaf0" stroke="#e05a72" stroke-width="1.4"/>
+    <text x="431" y="154" class="nm">행위·기타 정보</text>
+    <text x="431" y="174" class="ex">위치정보·통화내역</text>
+    <text x="431" y="190" class="ex">로그·쿠키</text>
+  </g>
+
+  <!-- 결합 식별 -->
+  <rect x="528" y="70" width="168" height="110" rx="12" fill="#fff7e6" stroke="#ffd27a" stroke-width="1.6"/>
+  <text x="612" y="98" class="nm" fill="#b45309">⚠ 결합 식별</text>
+  <text x="612" y="122" class="ex">하나로는 몰라도</text>
+  <text x="612" y="140" class="ex">여러 정보를 합치면</text>
+  <text x="612" y="158" class="ex">개인이 특정됨 → 모두 보호</text>
+</svg>

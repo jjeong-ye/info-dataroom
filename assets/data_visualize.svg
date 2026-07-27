@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .nm{font-size:12.5px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .ex{font-size:11px;fill:#6b7280;text-anchor:middle;}
+      .ax{stroke:#9aa3b2;stroke-width:1.2;}
+      .card{fill:#fff;stroke:#e2e6ee;stroke-width:1.4;}
+    </style>
+  </defs>
+  <text x="360" y="26" class="head">목적에 맞는 그래프 고르기</text>
+
+  <!-- 막대 -->
+  <rect class="card" x="24" y="44" width="150" height="120" rx="10"/>
+  <line class="ax" x1="44" y1="70" x2="44" y2="140"/><line class="ax" x1="44" y1="140" x2="154" y2="140"/>
+  <rect x="58" y="100" width="16" height="40" fill="#3b6ef5"/>
+  <rect x="82" y="80" width="16" height="60" fill="#3b6ef5"/>
+  <rect x="106" y="110" width="16" height="30" fill="#3b6ef5"/>
+  <rect x="130" y="90" width="16" height="50" fill="#3b6ef5"/>
+  <text x="99" y="180" class="nm">막대그래프</text>
+  <text x="99" y="196" class="ex">비교</text>
+
+  <!-- 꺾은선 -->
+  <rect class="card" x="196" y="44" width="150" height="120" rx="10"/>
+  <line class="ax" x1="216" y1="70" x2="216" y2="140"/><line class="ax" x1="216" y1="140" x2="326" y2="140"/>
+  <polyline points="226,125 252,100 278,115 304,80 320,95" fill="none" stroke="#0ea5a4" stroke-width="2.4"/>
+  <text x="271" y="180" class="nm">꺾은선그래프</text>
+  <text x="271" y="196" class="ex">시간에 따른 변화</text>
+
+  <!-- 원 -->
+  <rect class="card" x="368" y="44" width="150" height="120" rx="10"/>
+  <circle cx="443" cy="102" r="34" fill="#f59e0b"/>
+  <path d="M443,102 L443,68 A34,34 0 0 1 472,119 Z" fill="#3b6ef5"/>
+  <path d="M443,102 L472,119 A34,34 0 0 1 414,119 Z" fill="#0ea5a4"/>
+  <text x="443" y="180" class="nm">원그래프</text>
+  <text x="443" y="196" class="ex">비율·비중</text>
+
+  <!-- 산점도 -->
+  <rect class="card" x="540" y="44" width="156" height="120" rx="10"/>
+  <line class="ax" x1="560" y1="70" x2="560" y2="140"/><line class="ax" x1="560" y1="140" x2="680" y2="140"/>
+  <g fill="#8b5cf6">
+    <circle cx="576" cy="128" r="3.4"/><circle cx="592" cy="120" r="3.4"/><circle cx="606" cy="122" r="3.4"/>
+    <circle cx="620" cy="108" r="3.4"/><circle cx="634" cy="100" r="3.4"/><circle cx="648" cy="104" r="3.4"/>
+    <circle cx="662" cy="88" r="3.4"/><circle cx="600" cy="112" r="3.4"/>
+  </g>
+  <text x="618" y="180" class="nm">산점도</text>
+  <text x="618" y="196" class="ex">두 값의 관계</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="'Malgun Gothic','맑은 고딕',sans-serif">
+  <defs>
+    <style>
+      .head{font-size:15px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .sub{font-size:13px;font-weight:700;fill:#1f2637;text-anchor:middle;}
+      .ex{font-size:11px;fill:#6b7280;text-anchor:middle;}
+      .g{stroke:#c7d0e0;stroke-width:1;}
+      .heart{fill:#e05a72;}
+    </style>
+  </defs>
+  <text x="360" y="24" class="head">이미지의 디지털 표현 — 픽셀 · 비트맵 · 벡터</text>
+
+  <!-- 픽셀 격자(하트) -->
+  <text x="150" y="50" class="sub">픽셀(화소)로 표현</text>
+  <g>
+    <!-- 채워진 하트 픽셀 (7x6) cell=13, 원점(100,64) -->
+    <!-- row0 -->
+    <rect class="heart" x="113" y="64" width="13" height="13"/><rect class="heart" x="126" y="64" width="13" height="13"/><rect class="heart" x="152" y="64" width="13" height="13"/><rect class="heart" x="165" y="64" width="13" height="13"/>
+    <!-- row1 -->
+    <rect class="heart" x="100" y="77" width="13" height="13"/><rect class="heart" x="113" y="77" width="13" height="13"/><rect class="heart" x="126" y="77" width="13" height="13"/><rect class="heart" x="139" y="77" width="13" height="13"/><rect class="heart" x="152" y="77" width="13" height="13"/><rect class="heart" x="165" y="77" width="13" height="13"/><rect class="heart" x="178" y="77" width="13" height="13"/>
+    <!-- row2 -->
+    <rect class="heart" x="100" y="90" width="13" height="13"/><rect class="heart" x="113" y="90" width="13" height="13"/><rect class="heart" x="126" y="90" width="13" height="13"/><rect class="heart" x="139" y="90" width="13" height="13"/><rect class="heart" x="152" y="90" width="13" height="13"/><rect class="heart" x="165" y="90" width="13" height="13"/><rect class="heart" x="178" y="90" width="13" height="13"/>
+    <!-- row3 -->
+    <rect class="heart" x="113" y="103" width="13" height="13"/><rect class="heart" x="126" y="103" width="13" height="13"/><rect class="heart" x="139" y="103" width="13" height="13"/><rect class="heart" x="152" y="103" width="13" height="13"/><rect class="heart" x="165" y="103" width="13" height="13"/>
+    <!-- row4 -->
+    <rect class="heart" x="126" y="116" width="13" height="13"/><rect class="heart" x="139" y="116" width="13" height="13"/><rect class="heart" x="152" y="116" width="13" height="13"/>
+    <!-- row5 -->
+    <rect class="heart" x="139" y="129" width="13" height="13"/>
+    <!-- 격자선 -->
+    <g class="g">
+      <line x1="100" y1="64" x2="100" y2="142"/><line x1="113" y1="64" x2="113" y2="142"/><line x1="126" y1="64" x2="126" y2="142"/><line x1="139" y1="64" x2="139" y2="142"/><line x1="152" y1="64" x2="152" y2="142"/><line x1="165" y1="64" x2="165" y2="142"/><line x1="178" y1="64" x2="178" y2="142"/><line x1="191" y1="64" x2="191" y2="142"/>
+      <line x1="100" y1="64" x2="191" y2="64"/><line x1="100" y1="77" x2="191" y2="77"/><line x1="100" y1="90" x2="191" y2="90"/><line x1="100" y1="103" x2="191" y2="103"/><line x1="100" y1="116" x2="191" y2="116"/><line x1="100" y1="129" x2="191" y2="129"/><line x1="100" y1="142" x2="191" y2="142"/>
+    </g>
+    <rect x="100" y="64" width="91" height="78" fill="none" stroke="#9aa3b2" stroke-width="1.4"/>
+  </g>
+  <text x="150" y="162" class="ex">작은 색점(픽셀)들의 모음</text>
+  <text x="150" y="180" class="ex">픽셀↑(해상도↑) → 선명 / 색 깊이(비트)↑ → 색↑</text>
+
+  <!-- 비트맵 vs 벡터 -->
+  <text x="510" y="50" class="sub">확대하면?</text>
+
+  <rect x="360" y="64" width="150" height="86" rx="8" fill="#fff" stroke="#9aa3b2"/>
+  <text x="435" y="82" class="ex">비트맵</text>
+  <g class="heart">
+    <rect x="405" y="88" width="12" height="12"/><rect x="417" y="88" width="12" height="12"/><rect x="441" y="88" width="12" height="12"/><rect x="453" y="88" width="12" height="12"/>
+    <rect x="405" y="100" width="12" height="12"/><rect x="417" y="100" width="12" height="12"/><rect x="429" y="100" width="12" height="12"/><rect x="441" y="100" width="12" height="12"/><rect x="453" y="100" width="12" height="12"/>
+    <rect x="417" y="112" width="12" height="12"/><rect x="429" y="112" width="12" height="12"/><rect x="441" y="112" width="12" height="12"/>
+    <rect x="429" y="124" width="12" height="12"/>
+  </g>
+  <text x="435" y="147" class="ex" fill="#e05a72">계단현상(깨짐)</text>
+
+  <rect x="540" y="64" width="150" height="86" rx="8" fill="#fff" stroke="#9aa3b2"/>
+  <text x="615" y="82" class="ex">벡터</text>
+  <g transform="translate(603,86) scale(2.4)">
+    <path class="heart" d="M5,15 C5,15 -1,9.5 -1,5.2 A3 3 0 0 1 5,3.2 A3 3 0 0 1 11,5.2 C11,9.5 5,15 5,15 Z"/>
+  </g>
+  <text x="615" y="146" class="ex" fill="#3b6ef5">수식 표현 → 선명</text>
+
+  <text x="510" y="176" class="ex">비트맵=사진·픽셀아트 / 벡터=로고·글꼴</text>
+</svg>
