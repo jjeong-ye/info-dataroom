@@ -571,30 +571,8 @@
     if (c.오개념?.length) box.appendChild(block("학생들이 자주 헷갈리는 부분 (오개념)", listNode(c.오개념, "misconcept")));
     if (c.확인질문?.length) box.appendChild(block("이해 확인 질문 (마무리)", listNode(c.확인질문)));
 
-    /* ===== 4) 교과서 참고 (심화·비교) ===== */
-    if (c.교과서별정의?.length || c.공통점차이) {
-      stage("4. 교과서 참고 (여러 출판사 비교)");
-      if (c.교과서별정의?.length) {
-        const grid = el("div", "def-grid");
-        c.교과서별정의.forEach((d) => {
-          const row = el("div", "def-row");
-          row.appendChild(el("div", "def-pub", esc(d.출판사) + (d.페이지 ? `<br><span style='font-size:11px;color:#9aa;font-weight:500'>${esc(d.페이지)}</span>` : "")));
-          row.appendChild(el("div", "def-text", esc(d.정의)));
-          grid.appendChild(row);
-        });
-        box.appendChild(block(`‘${c.개념명}’ 교과서별 정의 비교 (${c.교과서별정의.length}종)`, grid, true));
-      }
-      if (c.공통점차이) {
-        const wrap = el("div", "compare");
-        if (c.공통점차이.공통) wrap.appendChild(el("div", "same", "<b>공통점</b> · " + esc(c.공통점차이.공통)));
-        if (c.공통점차이.차이) wrap.appendChild(el("div", "diff", "<b>차이점</b> · " + esc(c.공통점차이.차이)));
-        box.appendChild(block("공통점과 차이", wrap, true));
-      }
-      if (c.커버리지주의) {
-        const warn = el("div", "coverage-note", "⚠️ " + esc(c.커버리지주의));
-        box.appendChild(warn);
-      }
-    }
+    /* ===== 4) 교과서 참고 (여러 출판사 비교) =====
+       ⚠️ 저작권상 '교과서별 정의 비교' 섹션은 표시하지 않습니다. */
 
     // 관련 개념 (클릭하면 해당 개념으로 이동)
     if (c.관련개념?.length) {
